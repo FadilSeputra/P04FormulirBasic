@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Formulir</title>
+    <style>
+      img{
+        height: 200px;
+      }
+    </style>
+  </head>
+  <body>
+    <img src="sekuritas.png" width="100%">
+    <hr color="black">
+    <h3>Formulir Permohonan Pembukaan Rekening Nasabah</h3>
+    <form action="" method="post">
+      <fieldset>
+        <table>
+          <legend>Data Diri</legend>
+          <tr>
+            <td>1. Nama </td>
+            <td>:<input type="text" name="nama" placeholder="Nama Lengkap.."></td>
+          </tr>
+          <tr>
+            <td>2. Tempat Tanggal Lahir</td>
+            <td>:<input type="text" name="tempat" placeholder="Tempat..">
+            <input type="date">
+            </td>
+          </tr>
+          <tr>
+            <td>3. Jenis Kelamin </td>
+            <td>:<input type="radio" name="jenis_kelamin">Laki-Laki
+                <input type="radio" name="jenis_kelamin">Perempuan
+            </td>
+          </tr>
+          <tr>
+            <td>4. Email</td>
+            <td>:<input type="text" name="email" placeholder="Email.."></td>
+          </tr>
+          <tr>
+            <td>5. Agama </td>
+            <td>:<select>
+                <option>Islam</option>
+                <option>Kristen</option>
+                <option>Hindu</option>
+                <option>Budha</option>
+            </select></td>
+          </tr>
+          <tr>
+            <td>6. Status Kewarganegaraan </td>
+            <td>:<input type="radio" name="sk">Indonesia
+                <input type="radio" name="sk">WNA
+            <input type="text" name="sk">
+            </td>
+          </tr>
+          <tr>
+            <td>7. Identitas </td>
+            <td>:<input type="radio" name="identitas">KTP
+                <input type="radio" name="identitas">PASPOR
+                <input type="radio" name="identitas">KITAS
+            </td>
+          <tr>
+            <td>8. Nomer Identitas</td>
+            <td>:<input type="number" name="nomer_identitas"></td>
+          </tr>
+          </tr>
+          <tr>
+            <td>9. Alamat Lengkap :</td>
+            <td><textarea></textarea></td>
+          </tr>
+          <tr>
+            <td>10. Pendidikan Terakhir </td>
+            <td>:<input type="radio" name="pk">SD
+                <input type="radio" name="pk">SMP
+                <input type="radio" name="pk">SMA
+                <input type="radio" name="pk">S1
+                <input type="radio" name="pk">S2
+                <input type="radio" name="pk">S3
+            </td>
+          </tr>
+          <tr>
+            <td>11. Nama Gadis Ibu </td>
+            <td>:<input type="text" name="nama_ibu" placeholder="Nama Gadis Ibu Kandung.."</td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <table>
+          <legend>Informasi Pekerjaan</legend>
+          <tr>
+          <tr>
+            <td>1. Pekerjaan </td>
+            <td>:<select>
+                <option>Pelajar/Mahasiswa</option>
+                <option>Wiraswasta</option>
+                <option>Ibu Rumah Tangga</option>
+                <option>PNS(BUMN)</option>
+                <option>Profesional</option>
+                <option>Pegawai Swasta</option>
+                <option>Pensiunan</option>
+            </select></td>
+          <tr>
+            <td>2. Sumber Dana </td>
+                <td>:<input type="radio" name="sd">Gaji<br>
+                <input type="radio" name="sd">Laba Usaha<br>
+                <input type="radio" name="sd">Pasangan/Orang Tua<br>
+                <input type="radio" name="sd">Pensiunan<br>
+                <input type="radio" name="sd">Warisan<br>
+                <input type="radio" name="sd">Hibah
+            </td>
+          </tr>
+          <tr>
+            <td>3. Nama Perusahaan </td>
+            <td>:<input type="text" name="nama" placeholder="Nama Perusahaan.."></td>
+          </tr>
+          <tr>
+            <td>4. Bidang Usaha </td>
+            <td>:<input type="text" name="tempat" placeholder="Bidang Usaha..">
+            </td>
+          </tr>
+          <tr>
+            <td>5. Alamat Perusahaan :</td>
+            <td><textarea></textarea></td>
+          </tr>
+          <tr>
+            <td>6. Pendapatan Pertahun </td>
+            <td>:<input type="radio" name="pp">50 juta
+                <input type="radio" name="pp">50-100 juta<br>
+                <input type="radio" name="pp">100-150 juta
+                <input type="radio" name="pp">150-250 juta<br>
+                <input type="radio" name="pp">250-500 juta
+                <input type="radio" name="pp">1 Milyar
+            </td>
+          </tr>
+            <td>7. Pendapatan Bersih </td>
+            <td>:<input type="radio" name="pp">50 juta
+                <input type="radio" name="pp">50-100 juta<br>
+                <input type="radio" name="pp">100-150 juta
+                <input type="radio" name="pp">150-250 juta<br>
+                <input type="radio" name="pp">250-500 juta
+                <input type="radio" name="pp">1 Milyar
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+            <fieldset>
+        <table>
+          <legend>Tujuan Investasi</legend>
+          <tr>
+            <td>1. Tujuan Investasi:</td>
+            <td>:<input type="radio" name="ti">Keuntungan
+                <input type="radio" name="ti">Spekulasi<br>
+                <input type="radio" name="ti">Investasi Jangka Panjang
+                <input type="radio" name="ti">Investasi Jangka pendek<br>
+                <input type="radio" name="ti">Lainnya
+            <input type="text" name="ti">
+            </td>
+          </tr>
+          <tr>
+            <td>2. Pengalaman Investasi </td>
+            <td>:<input type="radio" name="pi">Saham
+                <input type="radio" name="pi">Obligasi<br>
+                <input type="radio" name="pi">Rekasa Dana
+                <input type="radio" name="pi">Lainnya
+                <input type="text" name="pi">
+                </td>
+          </tr>
+          <tr>
+            <td>3. Toleransi Resiko </td>
+            <td>:<input type="radio" name="tr">Menyukai Resiko
+                <input type="radio" name="tr">Menghindari Resiko<br>
+                <input type="radio" name="tr">Mempertimbangkan Resiko
+                </td>
+          </tr>
+        </table>
+      </fieldset>
+      <fieldset>
+        <table>
+          <legend> Informasi Bank</legend>
+          <tr>
+            <td>1. Nomer Tujuan Rekening Bank</td>
+            </tr>
+            <tr>
+              <td>Nama Bank</td>
+              <td>:<select>
+                <option>BCA</option>
+                <option>BRI</option>
+                <option>BNI</option>
+                <option>MANDIRI</option>
+                <option>BSI</option>
+                <option>DANAMON</option>
+                <option>PERMATA</option>
+                <option>BUKOPIN</option>
+                <option>JAGO</option>
+              </select></td>
+            </tr>
+            <tr>
+              <td>Cabang</td>
+              <td>:<input type="text" placeholder="Cabang Bank.."</td>
+            </tr>
+            <tr>
+              <td>Nomer Rekening</td>
+              <td>:<input type="number" placeholder="Nomer Rekening.."></td>
+            </tr>
+            <tr>
+              <td>Nama Pemilik Rekening</td>
+              <td>:<input type="text" placeholder="Nama Pemilik Rekening.."></td>
+            </tr>
+        </table>
+      </fieldset>
+      <br>
+      <table align="right">
+        <tr>
+          <td>Cirebon ,<input type="date" name="tgl"></td>
+        </tr>
+        <tr>
+          <td height="100px"></td>
+        </tr>
+        <tr>
+          <td><input type="text" name="Nama" placeholder="Nama Yang Bertanda Tangan"></td>
+        </tr> <br>
+        <tr>
+          <td>
+            <input type="submit" value="Simpan">
+            <input type="reset" value="Reset">
+            <input type="button" value="Kembali"> 
+          </td>
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
